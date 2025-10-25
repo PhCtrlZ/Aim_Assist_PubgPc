@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['0', '1', '2', '3', '4', '5', 'enemy', 'enemy_head', 'friendly', 'head', 'people']
+
+roboflow:
+  workspace: phctrlz
+  project: dectect_pubg-2q8wt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/phctrlz/dectect_pubg-2q8wt/dataset/1
